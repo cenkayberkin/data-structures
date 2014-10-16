@@ -1,3 +1,7 @@
+#Radix Sort implementation
+>Its the fastest sort algorithm for fixed digit numbers or fixed length strings.
+
+
 #Insertion sort implementation
 
 >Insertion is ideal for almost sorted arrays and situation when there is no extra space except sorting array.
