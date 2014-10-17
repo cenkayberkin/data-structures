@@ -1,3 +1,6 @@
+#Linkedlist implementation added
+>it has search, insert, append, remove, count methods.
+
 #Quick sort implementation
 >Quick sort is usually the fastest sorting algorithm, unless bad pivots are chosen.
 
