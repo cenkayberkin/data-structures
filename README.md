@@ -1,3 +1,10 @@
+#Quick sort implementation
+>Quick sort is usually the fastest sorting algorithm, unless bad pivots are chosen.
+
+#Merge sort implementation
+
+>Merge sort is ideal if you want a stable sort algorithm, its worst case scenario and best case wont change, it O(NlgN)
+
 #Insertion sort implementation
 
 >Insertion is ideal for almost sorted arrays and situation when there is no extra space except sorting array.
