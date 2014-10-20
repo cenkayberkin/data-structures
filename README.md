@@ -1,3 +1,10 @@
+#Stack implementation
+##Features
+push(data) - Adds a data element to the stack
+The parameter is the data element to add to the stack.
+
+pop() - Removes a data element from the stack and returns the value of that data element.  If the stack is empty, attempts to call pop should raise an appropriate Ruby exception class.
+
 #Quick sort implementation
 >Quick sort is usually the fastest sorting algorithm, unless bad pivots are chosen.
 
