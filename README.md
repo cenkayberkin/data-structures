@@ -1,3 +1,10 @@
+#Queue implemented
+enqueue(value): adds value to the queue
+dequeue(): removes the correct item from the queue and returns its value (should raise an exception if the queue is empty)
+size(): return the size of the queue. Should return 0 if the queue is empty.
+
+
+[![Build Status](https://travis-ci.org/cenkayberkin/data-structures.svg?branch=queue)](https://travis-ci.org/cenkayberkin/data-structures)
 #Quick sort implementation
 >Quick sort is usually the fastest sorting algorithm, unless bad pivots are chosen.
 
