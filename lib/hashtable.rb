@@ -1,3 +1,6 @@
+class NotAString < Exception
+end
+
 class HashListNode
   attr_accessor :next, :value, :key
   def initialize(key,value)
@@ -66,6 +69,8 @@ class Hashtable
   end
 
   def get(key)
+    raise NotAString, 'key is not a string' if key.class != String
+
     result = nil
     if @array[getIndex(key)] != nil
       list = HashLinklist.new(@array[getIndex(key)])
@@ -77,6 +82,8 @@ class Hashtable
   end
 
   def set(key, val)
+    raise NotAString, 'key is not a string' if key.class != String
+
     # first time creating list.
     if @array[getIndex(key)] == nil
       list = HashLinklist.new
@@ -96,5 +103,3 @@ class Hashtable
     end
   end
 end
-
-
