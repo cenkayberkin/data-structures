@@ -1,3 +1,18 @@
+#Hash table implementation.
+- It is fixed size hashtable. 
+- It handles hash collisions by using chaining linkedlist method to contain any values that share a hash
+- It accepts only strings as keys.  If a non-string is provided, the 'set' method raises an appropriate exception.
+- It has following methods:
+    - get(key) - returns the value stored with the given key
+    - set(key, val) - stores the given val using the given key
+    - hash(key) - hashes the key provided
+
+##Hashtable test
+
+- 235000 word added as key and reversed words added as values.
+- Same words checked with their values.
+
+
 #Quick sort implementation
 >Quick sort is usually the fastest sorting algorithm, unless bad pivots are chosen.
 
