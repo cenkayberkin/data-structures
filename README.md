@@ -1,3 +1,6 @@
+#Binary tree implemented.
+>it has 3 types of traversel strategy, preorder, postorder, inorder.
+
 #Quick sort implementation
 >Quick sort is usually the fastest sorting algorithm, unless bad pivots are chosen.
 
