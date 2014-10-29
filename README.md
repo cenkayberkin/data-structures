@@ -1,3 +1,10 @@
+#Double linked list with deduplicate feature.
+1) Set data structure was used as auxillary data structure.
+  O(N) is the complexity if i use set as auxillary data structure.
+
+2) My without auxillary data structrue implementation complexity is O(N^2).
+
+
 #Linkedlist implementation added
 >it has search, insert, append, remove, count methods.
 
